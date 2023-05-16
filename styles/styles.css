@@ -49,10 +49,15 @@ body{
 
 .img-map-caminata{
     width: 100%;
+    max-width: 600px;
 }
 
 .espaciado{
     margin-bottom: 30px;
+}
+
+.suspendido{
+    background-color: rgb(250, 161, 161);
 }
 
 
