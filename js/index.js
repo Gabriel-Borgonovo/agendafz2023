@@ -6,6 +6,6 @@ console.log($ulRealizadas)
 
 document.addEventListener('click', (e) => {
     if(e.target === $btn){
-        $ulRealizadas.classList.toggle('esconder');
+        $ulRealizadas.classList.toggle('mostrar');
     }
 })
