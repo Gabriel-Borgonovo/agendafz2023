@@ -1,6 +1,17 @@
 body{
     background-color: #f0f2f5;
 }
+
+.esconder{
+    height: 0;
+}
+
+.ul-realizadas{
+    display: block;
+    transition: all .3s linear;
+}
+
+
 .contain-info{
     display: flex;
     flex-direction: column;
@@ -74,4 +85,20 @@ body{
     background-color: white;
     color: #212529;
 }
+
+.dis-flex-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-burguer{
+    background-color: #212529;
+    color: #ffd43b;
+    align-self: center;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+
 
