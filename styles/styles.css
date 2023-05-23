@@ -8,7 +8,7 @@ body{
     transition: all .3s linear;
 }
 
-.mostrar{
+.ul-realizadas.mostrar{
     display: block;
 }
 
