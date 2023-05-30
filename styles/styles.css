@@ -1,4 +1,13 @@
-body{
+*{
+    box-sizing: border-box;
+}
+ 
+html{
+    background-color: #f0f2f5;
+}
+
+body{ 
+    overflow-x: hidden;
     background-color: #f0f2f5;
 }
 
@@ -19,14 +28,25 @@ body{
     justify-content: center;
     gap: 20px;
     align-items: center;
+    overflow-x: hidden;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .article-info{
     width: 90%;
     padding: 10px;
     border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrado{
+    align-self: center;
 }
 
 .h1-title{
